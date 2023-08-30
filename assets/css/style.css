@@ -1,3 +1,129 @@
-body {
-    background-color: blue;
+* {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h5,
+p {
+    text-align: center;
+}
+
+header {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+    background-color: darkgreen;
+    margin: 0px;
+    padding: 10px;
+}
+
+li,
+a {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    background-color: darkgreen;
+    margin: 5px;
+    padding: 6px;
+}
+
+section {
+    background-color: beige;
+}
+
+#new-website {
+    color: #42302D;
+    background-color: beige;
+    border-top: 5px solid rgb(192, 162, 122);
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    background-color: beige;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+div {
+    background-color: rgb(192, 162, 122);
+    padding-bottom: 35px;
+}
+
+#contact-me {
+    background-color: rgb(192, 162, 122);
+    color: #42302D;
+    font-weight: bold;
+    border-top: 3px solid #BF887F;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.form-container {
+    background-color: rgb(192, 162, 122);
+    width: 25%;
+    border: 3px solid #BF887F;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+form {
+    background-color: rgb(192, 162, 122);
+}
+
+input {
+    background-color: white;
+}
+
+label {
+    background-color: rgb(192, 162, 122);
+}
+
+#name {
+    width: 50%;
+    margin: 2px;
+}
+
+#email {
+    width: 50%;
+    margin: 2px;
+}
+
+input[type=submit] {
+    background-color: #42302D;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+}
+
+footer {
+    display: inline;
+    width: 100%;
+    background-color: darkgreen;
+    margin: 0px;
+}
+
+h5 {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    border-bottom: 5px solid #42302D;
 }
